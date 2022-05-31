@@ -1,0 +1,5 @@
+85:-bash
+253:/bin/bash ./1
+254:ps -U sara -o pid,command
+255:tail -n +2
+256:sed -r s/\s*([0-9]+)\s(.+)$/\1:\2/
